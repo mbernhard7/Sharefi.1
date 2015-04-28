@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>941372A2-E568-43AA-90F2-4FC5FAA7AB97</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ShareFi</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>ECC518B76EFC30BD8CB3F43029D8D64D37A28CD3</key>
+		<string>https://github.com/mbernhard7/ShareFi.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ShareFi/ShareFi.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>ECC518B76EFC30BD8CB3F43029D8D64D37A28CD3</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mbernhard7/ShareFi.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>ECC518B76EFC30BD8CB3F43029D8D64D37A28CD3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ECC518B76EFC30BD8CB3F43029D8D64D37A28CD3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ShareFI</string>
+		</dict>
+	</array>
+</dict>
+</plist>
