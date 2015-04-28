@@ -20,25 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    Reachability *reach = [Reachability reachabilityWithHostname:@"www.google.com"];
-    reach.reachableOnWWAN = NO;
-    if ([reach isReachable]){
-        CFArrayRef myArray = CNCopySupportedInterfaces();
-        CFDictionaryRef myDict = CNCopyCurrentNetworkInfo(CFArrayGetValueAtIndex(myArray, 0));
-        ssidInput= CFDictionaryGetValue(myDict, kCNNetworkInfoKeySSID);
-        _ssidText.text=ssidInput;
-    }
-    else{
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Please Connect to Wifi"
-                                                        message:@"This app requires a working internet connection, and can not use cellular data until you are registered. If you are connected, try again later, or check that google.com is up."
-                                                       delegate:self
-                                              cancelButtonTitle:@"OK"
-                                              otherButtonTitles:nil];
-        [alert show];
-        [self performSegueWithIdentifier:@"twotoone" sender:self];
-    }
-    // Do any additional setup after loading the view.
-}
+ }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -46,48 +28,14 @@
 }
 - (IBAction)submit
 {
-    Reachability *reach = [Reachability reachabilityWithHostname:@"www.google.com"];
-    reach.reachableOnWWAN = NO;
-    if ([reach isReachable]){
-        CFArrayRef myArray = CNCopySupportedInterfaces();
-        CFDictionaryRef myDict = CNCopyCurrentNetworkInfo(CFArrayGetValueAtIndex(myArray, 0));
-        NSString *currentwifi= CFDictionaryGetValue(myDict, kCNNetworkInfoKeySSID);
-        
-        if ([_ssidText.text isEqualToString:currentwifi]) {
-            if (_passText.text.length >=6) {
-            ssidInput= _ssidText.text;
-            passInput= _passText.text;
+                if (_accpassText.text.length >=6) {
+                    if (_emailText.text.length >=5) {
+                        emailInput= _emailText.text;
+                        accpassInput= _accpassText.text;
             [self performSegueWithIdentifier:@"twotothree" sender:self];
-            }
-            else {
-                UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Password Too Short"
-                                                                message:@"Please enter valid password."
-                                                               delegate:self
-                                                      cancelButtonTitle:@"OK"
-                                                      otherButtonTitles:nil];
-                [alert show];
+                    }
+                    }
 
-            }
-        }
-        else{
-            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Your SSID Does Not Match"
-                                                            message:@"Please make sure your SSID matches the WiFi network you are currently connected to."
-                                                           delegate:self
-                                                  cancelButtonTitle:@"OK"
-                                                  otherButtonTitles:nil];
-            [alert show];
-            
-        }
-
-    }
-    else{
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Please Connect to Wifi"
-                                                        message:@"This app requires a working internet connection, and can not use cellular data until you are registered. If you are connected, try again later, or check that google.com is up."
-                                                       delegate:self
-                                              cancelButtonTitle:@"OK"
-                                              otherButtonTitles:nil];
-        [alert show];
-    }
   
 }
 

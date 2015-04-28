@@ -16,6 +16,8 @@
 
 NSString *ssidInput=@"error";
 NSString *passInput=@"error";
+NSString *emailInput=@"error";
+NSString *accpassInput=@"error";
 
 @implementation ViewController
 

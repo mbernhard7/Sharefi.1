@@ -13,6 +13,8 @@
 }
 extern NSString *ssidInput;
 extern NSString *passInput;
+extern NSString *emailInput;
+extern NSString *accpassInput;
 
 -(IBAction)getStarted;
 

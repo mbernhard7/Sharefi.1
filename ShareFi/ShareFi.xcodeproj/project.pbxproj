@@ -22,6 +22,7 @@
 		DCEA62C71AEF16C40059825E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCEA62BD1AEF16C40059825E /* Security.framework */; };
 		DCEA62C81AEF16C40059825E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCEA62BE1AEF16C40059825E /* StoreKit.framework */; };
 		DCEA62CB1AEF18850059825E /* SignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEA62CA1AEF18850059825E /* SignIn.m */; };
+		DCEA62CE1AEF259D0059825E /* mainClass.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEA62CD1AEF259D0059825E /* mainClass.m */; };
 		F48235D31AED97F1000BB1B4 /* pageThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48235D21AED97F1000BB1B4 /* pageThreeViewController.m */; };
 		F48235D61AEDBB66000BB1B4 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F48235D51AEDBB66000BB1B4 /* Reachability.m */; };
 		F4D073791AE8A97200909814 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D073781AE8A97200909814 /* main.m */; };
@@ -61,6 +62,8 @@
 		DCEA62BE1AEF16C40059825E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		DCEA62C91AEF18850059825E /* SignIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignIn.h; sourceTree = "<group>"; };
 		DCEA62CA1AEF18850059825E /* SignIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignIn.m; sourceTree = "<group>"; };
+		DCEA62CC1AEF259D0059825E /* mainClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainClass.h; sourceTree = "<group>"; };
+		DCEA62CD1AEF259D0059825E /* mainClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainClass.m; sourceTree = "<group>"; };
 		F47EFAC21AEAC2A400372FAC /* ShareFi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ShareFi.entitlements; sourceTree = "<group>"; };
 		F48235D11AED97F1000BB1B4 /* pageThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pageThreeViewController.h; sourceTree = "<group>"; };
 		F48235D21AED97F1000BB1B4 /* pageThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pageThreeViewController.m; sourceTree = "<group>"; };
@@ -158,6 +161,8 @@
 				F4D0737B1AE8A97200909814 /* AppDelegate.m */,
 				F4D0737A1AE8A97200909814 /* AppDelegate.h */,
 				F4D073801AE8A97200909814 /* Main.storyboard */,
+				DCEA62CC1AEF259D0059825E /* mainClass.h */,
+				DCEA62CD1AEF259D0059825E /* mainClass.m */,
 				DCEA62C91AEF18850059825E /* SignIn.h */,
 				DCEA62CA1AEF18850059825E /* SignIn.m */,
 				F4D073831AE8A97200909814 /* Images.xcassets */,
@@ -300,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC5E637F1AE99FCB002C4B49 /* pageTwoViewController.m in Sources */,
+				DCEA62CE1AEF259D0059825E /* mainClass.m in Sources */,
 				F4D0737F1AE8A97200909814 /* ViewController.m in Sources */,
 				F4D0737C1AE8A97200909814 /* AppDelegate.m in Sources */,
 				F4D073791AE8A97200909814 /* main.m in Sources */,

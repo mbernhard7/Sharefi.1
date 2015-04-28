@@ -13,8 +13,11 @@
 }
 -(IBAction)submit;
 
-@property (strong, nonatomic) IBOutlet UITextField *ssidText;
+@property (strong, nonatomic) IBOutlet UITextField *emailText;
 
-@property (strong, nonatomic) IBOutlet UITextField *passText;
+@property (strong, nonatomic) IBOutlet UITextField *accpassText;
+
+@property (strong, nonatomic) IBOutlet UITextField *usernameText;
+
 
 @end
