@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "Reachability.h"
+#import <Parse/Parse.h>
 
 @interface ViewController ()
 
